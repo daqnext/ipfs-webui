@@ -397,7 +397,7 @@ describe('PeerLocationResolver', () => {
 
       const store = await createStore({
         selectors: {
-          selectAvailableGatewayUrl: () => 'https://ipfs.io',
+          selectAvailableGatewayUrl: () => 'https://pz-ipfs.meson.network',
           selectIsOnline: () => true,
           selectBootstrapPeers: () => fakePeers,
           selectPeers: () => fakePeers,
@@ -446,7 +446,7 @@ describe('PeerLocationResolver', () => {
 
       const store = await createStore({
         selectors: {
-          selectAvailableGatewayUrl: () => 'https://ipfs.io',
+          selectAvailableGatewayUrl: () => 'https://pz-ipfs.meson.network',
           selectIsOnline: () => true,
           selectBootstrapPeers: () => peers,
           selectPeers: () => peers,

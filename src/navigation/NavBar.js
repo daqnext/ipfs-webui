@@ -2,8 +2,8 @@ import React from 'react'
 import { connect } from 'redux-bundler-react'
 import { withTranslation } from 'react-i18next'
 import classnames from 'classnames'
-import ipfsLogoTextVert from './ipfs-logo-text-vert.svg'
-import ipfsLogoTextHoriz from './ipfs-logo-text-horiz.svg'
+import ipfsLogoTextVert from './meson-logo-text-vert.svg'
+import ipfsLogoTextHoriz from './meson-logo-text-horiz.svg'
 import StrokeMarketing from '../icons/StrokeMarketing.js'
 import StrokeWeb from '../icons/StrokeWeb.js'
 import StrokeCube from '../icons/StrokeCube.js'
@@ -51,7 +51,7 @@ const NavLink = ({
 }
 
 export const NavBar = ({ t }) => {
-  const codeUrl = 'https://github.com/ipfs/ipfs-webui'
+  const codeUrl = 'https://github.com/bitruss/ipfs-webui'
   const bugsUrl = `${codeUrl}/issues`
   const gitRevision = process.env.REACT_APP_GIT_REV
   const revisionUrl = `${codeUrl}/commit/${gitRevision}`
